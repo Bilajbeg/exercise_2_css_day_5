@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: bold;
+}
+
+header {
+    border: 1px solid black;
+    box-shadow: 8px 8px 8px gray;
+    border-radius: 10px;
+   
+}
+
+nav {
+    height: 50px;
+    background-image: linear-gradient(to left, aqua, rgb(85, 85, 160) );
+    border-radius: 10px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;  
+}
+
+/* hover changes start here */
+nav:hover {
+    background-color: darkolivegreen;
+    
+}
+
+a:hover {
+    /* background-color: white; */
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 25px;
+}
+
+
+/* hover changes ends here */
+nav label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 20px;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.logo:hover {
+    /* background-color: aliceblue; */
+    text-shadow: 3px 3px 3px black;
+    font-size: 25px;
+    color: white;
+}
+
+body {
+    background: linear-gradient(235deg, beige , aqua) fixed;
+    color: darkblue;
+}
+
+.main {
+    text-align: center;
+}
+
+div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.one:hover {
+    text-shadow: 3px 3px 3px black;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.two:hover {
+    text-shadow: 3px 3px 3px black;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.three:hover {
+    text-shadow: 3px 3px 3px black;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}

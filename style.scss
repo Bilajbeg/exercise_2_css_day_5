@@ -1,0 +1,96 @@
+@import 'variables';
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: bold;
+}
+
+header {
+    border: 1px solid black;
+    box-shadow: 8px 8px 8px gray;
+    border-radius: 10px;
+   
+}
+
+a:hover {
+    /* background-color: white; */
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 25px;
+}
+
+nav {
+    height: 50px;
+    background-image: $linergradient;
+    border-radius: 10px;
+
+    label {
+        font-family: $font_family_2;
+        font-size: larger;
+        text-align: center;
+        line-height: 50px;
+        padding-left: 20px;
+        color: darkcyan;
+        font-weight: bold;
+
+        &:hover {
+            text-shadow: 3px 3px 3px black;
+            font-size: 25px;
+            color: white;
+        }
+    }
+
+    ul {
+        float: right;
+
+        li {
+            display: inline-block;
+            line-height: 50px;
+            padding: 0 10px;  
+            &:hover {
+                /* background-color: white; */
+                color: white;
+                text-shadow: 3px 3px 3px black;
+                font-size: 25px;
+            }
+            
+        }
+
+    }
+}
+body {
+    background: $bgcolor;
+    color: $blue;
+}
+
+.main {
+    text-align: center;
+}
+
+div {
+    margin-top: $div_margin_top;
+    margin-bottom: $div_margin_botton;
+}
+
+.one:hover {
+    text-shadow: 3px 3px 3px black;
+    font-size: larger;
+    font-family: $font_family;
+    color: white;
+}
+
+.two:hover {
+    text-shadow: 3px 3px 3px black;
+    font-size: larger;
+    font-family: $font_family;
+    color: white;
+}
+
+.three:hover {
+    text-shadow: 3px 3px 3px black;
+    font-size: larger;
+    font-family: $font_family;
+    color: white;
+}
