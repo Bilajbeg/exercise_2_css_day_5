@@ -12,17 +12,13 @@ header {
    
 }
 
-nav {
-    height: 50px;
-    background-image: linear-gradient(to left, aqua, rgb(85, 85, 160) );
-    border-radius: 10px;
-}
+	
 
 nav ul {
     float: right;
 }
 
-nav ul li {
+ li {
     display: inline-block;
     line-height: 50px;
     padding: 0 10px;  
